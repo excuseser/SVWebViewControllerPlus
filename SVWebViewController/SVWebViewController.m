@@ -228,7 +228,9 @@
     _searchBar.returnKeyType = UIReturnKeyGo;
     _searchBar.autocapitalizationType = UITextAutocapitalizationTypeNone;
     _searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
-    _searchBar.keyboardAppearance = UIKeyboardAppearanceLight;
+    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) {
+        _searchBar.keyboardAppearance = UIKeyboardAppearanceLight;
+    }
     self.navigationItem.titleView = _searchBar;
 }
 

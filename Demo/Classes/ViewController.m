@@ -14,14 +14,14 @@
 
 
 - (void)pushWebViewController {
-    NSURL *URL = [NSURL URLWithString:@"http://samvermette.com"];
+    NSURL *URL = [NSURL URLWithString:@"http://www.apple.com"];
 	SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
 	[self.navigationController pushViewController:webViewController animated:YES];
 }
 
 
 - (void)presentWebViewController {
-	NSURL *URL = [NSURL URLWithString:@"http://samvermette.com"];
+	NSURL *URL = [NSURL URLWithString:@"http://www.apple.com"];
 	SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithURL:URL];
 	webViewController.modalPresentationStyle = UIModalPresentationPageSheet;
     [self presentViewController:webViewController animated:YES completion:NULL];
