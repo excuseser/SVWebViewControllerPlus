@@ -1,11 +1,13 @@
 # SVWebViewControllerPlus
 
-Base on [SVWebViewController](https://github.com/TransitApp/SVWebViewController) 
+Base on [SVWebViewController](https://github.com/TransitApp/SVWebViewController) for app  [ip-helper](https://itunes.apple.com/us/app/ip-helper-ping-tracert-whois/id622012742?l=zh&ls=1&mt=8)
 
 ![SVWebViewController](https://raw.githubusercontent.com/excuseser/SVWebViewControllerPlus/master/screen/shot_jpg.jpg)
 
 
 ## Differents
+- Add progressview for loading.
+- ADD url address Bar.
 
 ## Usage
 
